@@ -21,7 +21,7 @@ module.exports.hello = (event, context, done) => {
     done(err, 
       {
         statusCode: 200,
-        body: JSON.stringify({ message: `Hello World, with many thanks to JG`})
+        body: JSON.stringify({ message: `Hello World, with thanks to JG`})
       }
     )
   });
